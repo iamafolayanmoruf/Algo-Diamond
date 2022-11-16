@@ -1,0 +1,560 @@
+/* Author:
+Afolayan Moruf
+github:iamafolayanmoruf
+twitter:Kakamoruye1 */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    height: 55px;
+}
+
+.container img{
+    width: 30px;
+}
+.container a{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+#nav-one{
+    background-color: rgb(2, 26, 88);
+    /* position: fixed; */
+    /* width: 100%; */
+}
+#navbarSupportedContent ul li{
+    display: inline;
+    margin-left: 30px;
+    font-weight: 600;
+}
+#navbarSupportedContent a{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+
+
+section{
+    height: 90vh;
+    background-color: rgb(11, 53, 147);
+    background-image: url(./image/download.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.text h2{
+    color: white;
+    font-size: 40px;
+    padding-top: 25%;
+    width: 50%;
+}
+.text p{
+    width: 50%;
+    color: white;
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 15px;
+}
+.text button{
+    height: 45px;
+    width: 160px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 20px;
+    background: none;
+    background-color:rgb(31, 132, 254) ;
+    /* margin-left: 29%; */
+    border: none;
+}
+.image img{
+    width: 220%;
+    margin-top: 60%;
+    margin-left: -120%;
+}
+.flex{
+    display: flex;
+}
+
+/* Section-one */
+.one{
+    height: 50vh;
+    background: rgb(194, 220, 235);
+}
+h1{
+    text-align: center;
+    padding-top: 120px;
+    font-weight: 100;
+    font-size: 10px;
+    color: rgb(64, 64, 64);
+}
+.onee{
+    text-align: center;
+    margin-top: 60px;
+    color: rbg(64, 64, 64);
+}
+.one-II{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(64, 64, 64) ;
+}
+/* section_two */
+.two{
+    height: 160vh;
+    background: rgb(13, 53, 149);
+}
+h3{
+    text-align: center;
+    padding-top: 120px;
+    color: whitesmoke;
+    font-size: 30px !important;
+}
+.text-p{
+    color: whitesmoke;
+    padding-left: 15%;
+    padding-top: 10%;
+    font-size: 25px;
+    font-weight: 400;
+    
+}
+.textt{
+    color: rgb(185, 171, 247);
+    width: 49%;
+    padding-left: 15%;
+    margin-top: 30px;
+    font-weight: 500;
+    /* font-size: 1px; */
+}
+.textt-I{
+    color: rgb(185, 171, 247);
+    width: 50%;
+    padding-left: 15%;
+    margin-top: 25px;
+    font-weight: 500;
+}
+.image-I img{
+    width: 330%;
+    margin-left: -400%;
+    margin-top: 40%;
+}
+.image-II img{
+    width: 200%;
+    margin-left: -400%;
+    margin-top: 50%;
+}
+.text-S{
+    color: white;
+    margin-left: 65%;
+    margin-top: 10%;
+    font-size: 25px;
+}
+.text-II{
+    width: 40%;
+    color: rgb(185, 171, 247);
+    margin-left: 65%;
+    font-weight: 500;
+}
+.text--{
+    width: 45%;
+    margin-left: 65%;
+    margin-top: 40px;
+    color: rgb(185, 171, 247);
+    font-weight: 500;
+}
+  /* Section_3 */
+.three{
+    height: 100vh;
+    background: rgb(194, 220, 235);
+}
+h4{
+    text-align: center;
+    padding-top: 100px;
+    font-weight: 400 !important;
+    font-size: 30px !important;
+}
+.text-flow{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 15px;
+}
+.imag img{
+    width: 90%;
+    margin-top: 13%;
+    margin-left: 40%
+}
+h6{
+    font-size: 25px !important;
+    font-weight: 400 !important;
+    margin-left: 12%;
+    padding-top: 100px;
+}
+.text-flow-I{
+    padding-top: 150px;
+    margin-left: -8%;
+    color: rgb(137, 141, 144);
+    font-weight: 500;
+}
+.text-flow-II{
+    padding-top: 170px;
+    margin-left: -19%;
+    margin-top: 20px;
+    color: rgb(137, 141, 144);
+    font-weight: 500;
+}
+.bth{
+    height: 50px;
+    width: 150px;
+    border: none;
+    background: rgb(32, 131, 255);
+    font-size: 15px;
+    color: white;
+    border-radius: 8px;
+    margin-top: 15%;
+    margin-left: -33%;
+}
+.four{
+    height: 70vh;
+    background: rgb(13, 53, 149);
+    display: none;
+}
+.ttext{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+.texxt{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 500;
+}
+/* Section-5 */
+.five{
+    height: 70vh;
+    background: rgb(5, 56, 103);
+}
+.fivee{
+    color: white;
+    padding-top: 40px;
+    margin-left: 50%;
+    font-size: 40px;
+    font-weight: 400 !important;
+}
+.para{
+    color: white;
+    margin-top: -20px;
+}
+.paraa{
+    color: rgb(194, 220, 235);
+    width: 35%;
+    margin-top: 160px;
+    margin-left: -13%;
+}
+.imaa img{
+    width: 60%;
+    margin-top: 110px;
+    margin-left: 230px;
+}
+/* Section-6 */
+.six{
+    height: 90vh;
+    background: rgb(194, 220, 235);
+}
+.token{
+    text-align: center;
+    color: black;
+    font-weight: 400 !important;
+}
+.tex{
+    /* color: rgb(160, 173, 181); */
+    font-weight: 400 !important;
+    margin-top: 90px;
+    margin-left: 250px;
+}
+.teex{
+    color: rgb(160, 173, 181);
+    width: 30%;
+    margin-top: 130px;
+    margin-left: -4.5%;
+}
+.sym{
+    color: rgb(160, 173, 181);
+    margin-top: 12%;
+    margin-left: -30%;
+}
+.tok img{
+    width: 54%;
+    margin-top: 7%;
+    margin-left: 480px;
+}
+footer{
+    height: 30vh;
+    background: rgb(2, 26, 88);
+}
+.fot img{
+    width: 40px;
+    margin-top: 40px;
+}
+.fot p{
+    color: white;
+    margin-top: -25px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.icon{
+    color: white;
+    font-size: 20px;
+    margin-left: 50%;
+    margin-top: 40px;
+}
+i{
+    margin: 10px;
+}
+.algo{
+    color: white;
+    margin-top: 20px;
+}
+.copy{
+    text-align: center;
+    color: white;
+    margin-top: 130px;
+}
+
+
+
+@media screen and (max-width: 768px){
+    section .flex{
+        display: flex;
+        flex-direction: column !important;
+    }
+    
+    .image img{
+        width: 100%;
+        margin: 0 !important;
+        margin-top: -700px !important;
+    }
+    .text h2{
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 190px;
+    }
+    .text p{
+        width: 100%;
+        font-size: 12px;
+        text-align: center;
+    }
+    .text button{
+
+        width: 120px;
+        margin-top: 20px !important;
+        margin-left: 130px !important;
+    }
+    #navbarSupportedContent ul li{
+        display: flex;
+    }
+    #navbarSupportedContent ul li{
+        margin: 0 !important;
+        margin-top: 3px !important;
+
+    }
+    .onee{
+        width: 90%;
+        margin-left: 20px !important;
+        font-size: 12px !important;
+    }
+    .one-II{
+        width: 90%;
+        margin-left: 13px !important;
+    }
+    .two{
+        height: 230vh !important;
+    }
+
+    h1{
+        padding: 0 !important;
+        padding-top: 50px !important;
+    }
+   
+    .text-p{
+        padding: 0 !important;
+        text-align: center;
+        padding-top: 40px !important;
+    }
+    .textt{
+        width: 90%;
+        padding: 0 !important;
+        padding-left: 20px !important;
+    }
+    .textt-I{
+        width: 90%;
+        padding: 0 !important;
+        padding-left: 20px !important;
+    }
+    .image-I img{
+        width: 70%;
+        margin: 0 !important;
+        margin-left: 65px !important;
+        margin-top: 30px !important;
+    }
+    .image-II img{
+        width: 80%;
+        margin: 0 !important;
+        margin-top: -10px !important;
+        margin-left: 40px !important;
+    }
+    .text-S{
+        margin: 0 !important;
+        text-align: center;
+        margin-top: 80px !important;
+    }
+    .text-II{
+        width: 85%;
+        margin: 0 !important;
+        margin-left: 20px !important;
+        margin-top: 40px !important;
+    }
+    .text--{
+        width: 90%;
+        margin: 0 !important;
+        margin-top: 35px !important;
+        margin-left: 20px !important;
+    }
+    .three{
+        height: 110vh !important;
+    }
+    .text-flow{
+        width: 80%;
+        margin-left: 45px;
+    }
+    .imag img{
+        margin: 0 !important;
+        width: 80%;
+        margin-top: 25px !important;
+        margin-left: 45px !important;
+    }
+    h6{
+        margin: 0 !important;
+        margin-left: 20px !important;
+        padding: 0 !important;
+        margin-top: 30px !important;
+    }
+    .text-flow-I{
+        margin: 0 !important;
+        padding: 0% !important;
+        margin-top: 15px !important;
+        margin-left: 20px !important;
+    }
+    .text-flow-II{
+        margin: 0 !important;
+        padding: 0 !important;
+        margin-left: 20px !important;
+        margin-top: 20px !important;
+    }
+    .bth{
+        margin: 0 !important;
+        margin-left: 20px !important;
+        margin-top: 40px !important;
+    }
+    .four{
+        /* display: none; */
+    }
+    .five{
+        /* display: none; */
+        height: 100vh !important;
+
+    }
+    .fivee{
+        margin: 0 !important;
+        padding: 0 !important;
+        padding-top: 60px !important;
+        text-align: center;
+        font-weight: 600 !important;
+        font-size: 20px !important;
+    }
+    .imaa img{
+        margin: 0 !important;
+        width: 40%;
+        margin-top: 30px !important;
+        margin-left: 123px !important;
+    }
+    .para{
+        margin: 0 !important;
+        margin-top: -70px !important;
+    }
+    .paraa{
+        margin: 0 !important;
+        width: 95%;
+        margin-left: 10px !important;
+        margin-top: 50px !important;
+    }
+    .six{
+        /* display: none; */
+        height: 130vh !important;
+    }
+    .token{
+        padding: 0 !important;
+        padding-top: 20px !important;
+
+    }
+    .tok img{
+        /* display: none; */
+        width: 85%;
+        margin: 0 !important;
+        margin-top: -240% !important;
+        margin-left: 30px !important;
+        line-height: 90px !important;
+    }
+    .tex{
+        margin: 0 !important;
+        font-weight: 600 !important;
+        margin-top: 80% !important;
+        margin-left: 30px !important;
+        line-height: -90px!important;
+    }
+    .teex{
+        margin: 0 !important;
+        width: 60%;
+        margin-top: 40px !important;
+        margin-left: 30px !important;
+        font-weight: 500 !important;
+    }
+    .sym{
+        margin: 0 !important;
+        margin-left: 30px !important;
+        margin-top: 30px !important;
+    }
+    footer{
+        height: 35vh !important;
+    }
+    .flex{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .fot img{
+        margin-left: 26% !important;
+    }
+    .fot p{
+        text-align: center;
+    }
+    .icon{
+        margin: 0 !important;
+        text-align: center;
+    }
+    .algo{
+        text-align: center;
+        width: 70%;
+        margin-left: 60px !important;
+        margin-top: -1% !important;
+    }
+    .copy{
+        margin-top: 40% !important;
+    }
+}
+
+
