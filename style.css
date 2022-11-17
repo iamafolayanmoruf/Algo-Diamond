@@ -368,9 +368,15 @@ i{
     }
     .one p{
         font-size: 10px;
+        width: 67%;
+        text-align: center;
+        margin-left: 60px !important;
     }
     .one .p{
         font-size: 10px;
+        width: 70%;
+        text-align: center;
+        margin-left: 60px !important;
     }
     .two{
         height: 230vh !important;
