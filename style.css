@@ -22,8 +22,8 @@ twitter:Kakamoruye1 */
 }
 #nav-one{
     background-color: rgb(2, 26, 88);
-    /* position: fixed; */
-    /* width: 100%; */
+    position: fixed;
+    width: 100%;
 }
 #navbarSupportedContent ul li{
     display: inline;
@@ -85,23 +85,24 @@ section{
     height: 50vh;
     background: rgb(194, 220, 235);
 }
-h1{
+.one h1{
     text-align: center;
     padding-top: 120px;
-    font-weight: 100;
-    font-size: 10px;
-    color: rgb(64, 64, 64);
+    font-weight: 400 !important;
 }
-.onee{
+.one p{
     text-align: center;
-    margin-top: 60px;
-    color: rbg(64, 64, 64);
+    padding-top: 40px;
+    color: rgb(102, 109, 114);
+    font-weight: 600;
 }
-.one-II{
+.one .p{
     text-align: center;
-    margin-top: 50px;
-    color: rgb(64, 64, 64) ;
+    padding-top: 30px;
+    color: rgb(102, 109, 114);
+    font-weight: 600;
 }
+
 /* section_two */
 .two{
     height: 160vh;
@@ -331,7 +332,10 @@ i{
         display: flex;
         flex-direction: column !important;
     }
-    
+    #nav-one{
+        position: absolute;
+    }
+   
     .image img{
         width: 100%;
         margin: 0 !important;
@@ -362,14 +366,11 @@ i{
         margin-top: 3px !important;
 
     }
-    .onee{
-        width: 90%;
-        margin-left: 20px !important;
-        font-size: 12px !important;
+    .one p{
+        font-size: 10px;
     }
-    .one-II{
-        width: 90%;
-        margin-left: 13px !important;
+    .one .p{
+        font-size: 10px;
     }
     .two{
         height: 230vh !important;
