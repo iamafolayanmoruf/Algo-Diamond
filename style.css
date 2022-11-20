@@ -9,7 +9,7 @@ twitter:Kakamoruye1 */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .container{
-    height: 55px;
+    /* height: auto; */
 }
 
 .container img{
@@ -19,6 +19,10 @@ twitter:Kakamoruye1 */
     color: white;
     font-size: 20px;
     font-weight: 600;
+    /* margin-top: 30px; */
+}
+.container a :hover{
+    color: white !important;
 }
 #nav-one{
     background-color: rgb(2, 26, 88);
@@ -32,8 +36,12 @@ twitter:Kakamoruye1 */
 }
 #navbarSupportedContent a{
     text-decoration: none;
-    font-size: 12px;
+    font-size: 13px;
 }
+#mar{
+    padding-top: 15px;
+}
+
 
 
 
@@ -333,7 +341,7 @@ i{
         flex-direction: column !important;
     }
     #nav-one{
-        position: absolute;
+        /* position: absolute; */
     }
    
     .image img{
